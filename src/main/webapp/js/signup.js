@@ -23,7 +23,7 @@ $(function() {
 		console.log("data" +data);
 		$.ajax({
 			type: "POST",
-			url: "bin/process.php", /*TODO: Change to proper URL*/
+			url: "http://173.36.54.84:8888/CMADFinal/resource/signup", /*TODO: Change to proper URL*/
 			data: data,
 			success: function(){
 				console.log("Form Submission Sucess");
